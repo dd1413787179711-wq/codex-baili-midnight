@@ -1,0 +1,10 @@
+Based on chenyi380/baili-codex (public v11).
+Upstream: https://github.com/chenyi380/baili-codex
+
+integration.mjs retains and modifies the upstream MIT-licensed runtime integration.
+Changes: startup-only option, current-composer glass styling, midnight-blue surface
+palette, cold-white foreground tokens, and dark user-message bubbles.
+
+No upstream media, local consent, app sessions, logs, screenshots, credentials,
+or machine-specific launcher paths are included in this repository.
+See LICENSE and the upstream ASSET-NOTICE.md for separate media rights.

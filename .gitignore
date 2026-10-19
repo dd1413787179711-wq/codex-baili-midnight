@@ -1,0 +1,10 @@
+**/local-consent.json
+**/session.json
+**/launcher.log
+**/*.log
+**/*.lnk
+**/theme-backups/
+**/node_modules/
+*.zip
+.DS_Store
+Thumbs.db
