@@ -25,6 +25,7 @@ try {
     Copy-Item -LiteralPath $source -Destination $target -Force
     $config | Add-Member -NotePropertyName startupOnly -NotePropertyValue $false -Force
     $config | Add-Member -NotePropertyName panelOpacity -NotePropertyValue 0.8 -Force
+    $config | Add-Member -NotePropertyName backgroundStrength -NotePropertyValue 1.0 -Force
     $configJson = $config | ConvertTo-Json -Depth 20
     [IO.File]::WriteAllText($configPath,$configJson,[Text.UTF8Encoding]::new($false))
 } catch {
